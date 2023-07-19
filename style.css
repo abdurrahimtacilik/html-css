@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Martian+Mono&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@1,300&family=Sofia+Sans:ital@1&display=swap");
+html {
+  text-align: center;
+}
+
+#avatar {
+  width: 400px;
+  position: relative;
+  height: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: blue;
+}
+/* CSS Relative units vs absolute units of measurement */
+p {
+  margin: 20px 50px 20px 50px;
+}
+
+ul {
+  margin-left: 80px;
+}
+
+li {
+  padding: 4px;
+}
+.social {
+  background-color: skyblue;
+  color: #34382c;
+  padding: 10px;
+}
+* {
+  text-align: center;
+  background-color: aquamarine;
+  color: #0f0c77;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.profile {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.social a:hover {
+  background-color: orangered;
+}
